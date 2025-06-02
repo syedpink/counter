@@ -48,3 +48,75 @@
  
 }
 
+
+.doto{
+  background-color:cornsilk;
+  text-align: left;
+  max-width: max-content;
+  border: 2px double grey;
+  max-width: 400px;
+  margin: auto;
+  h2{
+    text-align: center;
+    color:darkgoldenrod;
+  }
+  input{
+    padding: 20px;
+    font-size: 18px;
+  }
+  input:focus{
+    outline: none;
+  }
+  form{
+    text-align: center;
+  }
+  button{
+    background-color:burlywood;
+    padding: 15px;
+    margin-left: 15px;
+  }
+  ul{
+    list-style-type: none;
+    padding: 0px;
+   
+    li{
+      margin-top: 10px;
+      text-align: left;
+      color: black;
+      span{
+        cursor: pointer;
+        margin-left: 8px;
+      }
+      button{
+        background-color: bisque;
+        padding: 3px;
+        color: black;
+        display: block;
+        margin-top: 20px;
+
+      }
+    }
+  }
+  #click{
+    margin-top: 15px;
+  }
+ }
+
+ .show{
+  border:2px solid gray;
+  border-block:initial;
+  display: block;
+  text-align: center;
+  background-color: beige;
+  h3{
+    color: black;
+  }
+  
+}
+ .hide{
+  button{
+    /* padding: 10px; */
+    border-radius: 25px;
+    margin: 10px;
+  }
+ }
